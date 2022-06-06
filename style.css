@@ -23,10 +23,29 @@ button{
 
     position: absolute;
     top: 53%;
-    left: 40%;
+    left: 60%;
     width: 250px;
     height: 80px;
     color: greenyellow;
     border: 3px solid greenyellow;
     background-color: black;
+}
+#textBox{
+
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    width: 250px;
+    height: 20px;
+    
+}
+span{
+    position: absolute;
+    top: 52%;
+    color: aliceblue;
+    background-color: black;
+    left: 25%;
+    width: 250px;
+    height: 20px;
+    
 }
