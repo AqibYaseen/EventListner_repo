@@ -25,12 +25,19 @@ btn.onmouseover = () => {
 }
 textBox.onfocus = () =>{
     div1.innerHTML = "text box focus"
-
+    textBox.style.borderWidth = "4px";
+    textBox.style.borderColor = "green";
+    
 }
 
 textBox.onblur = () => {
     div1.innerHTML = "text box focus removed"
 
+}
+
+textBox.onkeyup = () => {
+    div1.innerHTML = textBox.value;
+   
 }
 
 
