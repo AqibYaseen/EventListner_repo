@@ -6,6 +6,7 @@ let textBox = document.getElementById("textBox");
 btn.onmousedown = () => {
     div1.innerHTML = "clicked"
     div1.style.backgroundColor = "#b369a6";
+    alert(textBox.value);
 }
 
 btn.ondblclick = () => {
@@ -44,11 +45,9 @@ textBox.onkeyup = () => {
     div1.style.backgroundColor = "#6479c4";
 }
 
+
 setTimeout(testTimeOut, 3000);
-
 function testTimeOut(){
-    div1.innerHTML = "Page Loaded Succesfully";
-    alert("Alert after 3 seconds ! ");
-
+    div1.innerHTML = "After 3 seconds of Page Load";
 }
 
